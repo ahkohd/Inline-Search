@@ -1,5 +1,5 @@
 ## Search the web faster and smarter with Inline Search Chrome/Firefox extension
-_**Inline** search an extension for Chrome and Firefox that allows you to use your favorite search engines on the fly without having to open new tab. Get to search Google, Wikipedia, Bing and Yahoo as quickly as possible, all you just need to do is highlight what to search and hit the shortcut._
+**Inline** search an extension for Chrome and Firefox that allows you to use your favorite search engines on the fly without having to open new tab. Get to search Google, Wikipedia, Bing and Yahoo as quickly as possible, all you just need to do is highlight what to search and hit the shortcut.
 
 
 
