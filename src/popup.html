@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="./popup.js"></script>
+    </head>
+    <body>
+        <style>
+
+            #pane
+            {
+                padding: 13px 10px;
+                border-bottom: 1px solid #eee;
+                margin: 0;
+                width: 100%;
+                background-size: cover;
+                width: 140px;
+
+                
+            }
+            body, html{
+                padding:0;
+                margin: 0;
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            ul li
+            {
+                display: block;
+                padding: 10px;
+                width: 140px;
+                user-select: none;
+                cursor: default;
+            }
+
+
+
+            ul li:hover
+            {
+                background: #eee;
+            }
+
+            ul li img 
+            {
+                margin-right: 15px;
+                height: 20px;
+                width: 20px;
+                vertical-align: middle;
+            }
+
+            ul li span
+            {
+                vertical-align: middle;
+            }
+
+            #ico
+            {
+                border-radius: 50%;
+                margin-right: 15px;
+                height: 24px;
+                width: 24px;
+                vertical-align: middle;
+            }
+
+            .pane span
+
+                {
+                    vertical-align: middle;
+                }
+
+            #well2
+            {
+                padding: 5px 10px 10px 10px;
+                display: none;
+                word-wrap: break-word;
+                opacity: 0;
+                transition:all .06s;
+                color: #777;
+            }
+
+             .closebtn {
+                    margin-left: 15px;
+                    color: black;
+                    font-weight: bold;
+                    float: right;
+                    font-size: 18px;
+                    line-height: 20px;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+
+                /* When moving the mouse over the close button */
+                .closebtn:hover {
+                    color: #00aced;
+                }
+
+                #au
+                {
+                    color: #0a64ec;
+                    cursor: pointer;
+                }
+
+                #au:hover
+                {
+                    text-decoration: underline;
+                }
+        </style>
+
+    
+        <div id="pane">
+
+            <img id="ico" src="../icons/icon48.png"/>
+            <span>Inline Search</span>
+        </div>
+    
+        <div id="well1">
+                <ul>
+                        <li id="op"><img src="../icons/settings.png" /> <span> Options</span></li>
+                        <li id="rm"><img src="../icons/ext.png" /> <span>Manage Extension</span></li>
+                        <li id="ab"><img src="../icons/about.png" /> <span>About</span></li>
+                    </ul>
+        </div>
+
+        <div id="well2">
+            <span id="cb" class="closebtn" onclick="javascript:this.parentElement.style.display='none';this.parentElement.style.opacity=0;">&times;</span> 
+            <p> 
+                Inline Search Chrome extension developed by <a id="au">@ahkohd</a>
+            </p>
+        </div>
+        
+    </body>
+    </html>
